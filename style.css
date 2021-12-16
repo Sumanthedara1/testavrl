@@ -1,0 +1,41 @@
+header{
+
+    height: 30vh;
+    /* background-color: ; */
+}
+
+
+header h1{
+    margin: auto;
+    width: 400px;
+}
+
+#citylist{
+    width: 30vw;
+
+}
+
+#citylist div{
+
+    font-size: 30px;
+    margin: 15px;
+    border: 1px solid black;
+    width: 50%;
+}
+
+
+#info{
+    position: relative;
+
+    left: 30vw;
+}
+#sbox{
+    position: relative;
+
+    /* left: 75vw; */
+    
+}
+
+table, th, td {
+    border:1px solid black;
+  }

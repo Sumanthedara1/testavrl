@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+
+        <h1>Weather app</h1>
+
+    </header>
+
+    <section id="info">
+
+        <div id="sbox">
+            <input id="inbox" type="text">
+            <input type="button" value="search" onclick="chk()">
+
+        </div>
+
+        
+
+        <table id="tbl" style="width:70%">
+ 
+            <tr>
+ 
+                <th>City</th>
+ 
+                <th>descrition</th>
+ 
+                <th>Temperature</th>
+                <th>Pressre</th>
+                <th>data age</th>
+                <th> delete </th>
+ 
+            </tr>
+
+
+        </table>
+    </section>
+
+    <aside id="citylist">
+
+        <section id="citysec">
+            <button onclick="highlight()">Get weather</button>
+            <div id="ct">City</div>
+            <div id="ct1">London</div>
+            <div id="ct2">New York</div>
+            <div id="ct3">Los Angeles</div>
+            <div id="ct4">Las Vegas</div>
+
+        </section>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
