@@ -22,7 +22,7 @@ function chk()
         let roe=document.getElementById("r"+i);
         roe.style.background="yellow";
         
-        setTimeout(function(){ roe.style.background="black"
+        setTimeout(function(){ roe.style.background="white"
        },3000);
     }
      //iterate through columns
