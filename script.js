@@ -18,8 +18,12 @@ function chk()
     {
 
         // let th=i+;
+        
         let roe=document.getElementById("r"+i);
         roe.style.background="yellow";
+        
+        setTimeout(function(){ roe.style.background="black"
+       },3000);
     }
      //iterate through columns
      //columns would be accessed using the "col" variable assigned in the for loop
